@@ -4,7 +4,7 @@ import Header from '../Componenets/dashboard/Header';
 import Dashboard from '../Pages/dashboard/Dashboard';
 import { Routes, Route, useLocation } from 'react-router-dom';
 
-import '../assets/main.css'
+import '../assets/Main.css'
 import UserProfile from '../Pages/dashboard/Profile/UserProfile';
 import Console from '../Pages/dashboard/Consolepage/Console';
 
