@@ -3,10 +3,9 @@ import Sidebar from '../Componenets/dashboard/Sidebar';
 import Header from '../Componenets/dashboard/Header';
 import Dashboard from '../Pages/dashboard/Dashboard';
 import { Routes, Route, useLocation } from 'react-router-dom';
-
-import '../assets/Main.css'
 import UserProfile from '../Pages/dashboard/Profile/UserProfile';
 import Console from '../Pages/dashboard/Consolepage/Console';
+import '../assets/Main.css'
 
 function DashboardLayout() {
   const [sidebarCollapsed, setSidebarCollapsed] = useState(false);
