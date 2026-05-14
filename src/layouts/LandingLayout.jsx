@@ -4,7 +4,7 @@ import Home from '../Componenets/landing/Home';
 import AboutPage from '../Pages/landing/AboutPage';
 import Signup from '../Pages/auth/Signup';
 import Login from '../Pages/auth/Login';
-import ForgotPassword from '../Pages/Auth/ForgotPassword';
+import ForgotPassword from '../Pages/auth/ForgotPassword';
 import Header from '../Componenets/common/Header';
 import Contact from '../Pages/landing/Contact';
 
