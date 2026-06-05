@@ -1,0 +1,31 @@
+.Table-container{
+   background-color:#ffff ;
+   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+   border-radius: 10px;
+}
+
+.entries-search-bar{
+   background-color: var(--table-header);
+   padding: 10px;
+   border-radius: 8px;
+}
+
+
+.report-card th,
+.report-card td {
+    white-space: nowrap;
+    vertical-align: middle;
+    text-align: center;
+    
+}
+
+.search-wrapper {
+    min-width: 250px;
+}
+@media (max-width: 600px) {
+   .search-wrapper {
+    min-width: 10px;
+}
+}
+
+
