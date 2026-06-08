@@ -46,9 +46,7 @@ const Subscription = () => {
     setHasChecked(false);
 
     try {
-      const token = localStorage.getItem("token");
       const response = await apiClient.get(`/User/check-user-bot-status?loginid=${id}`, {
-        headers: { Authorization: `Bearer ${token}` }
       });
 
       if (response.data?.success && response.data.data) {
@@ -117,7 +115,6 @@ const Subscription = () => {
 
     try {
       const loggedInRegNo = userData?.regno || localStorage.getItem("regno");
-      const token = localStorage.getItem("token");
 
       const response = await apiClient.post(
         "/Dashboard/investment",
@@ -128,9 +125,6 @@ const Subscription = () => {
           pkg: "BOT",
           aggrement: ""
         },
-        {
-          headers: { Authorization: `Bearer ${token}` }
-        }
       );
 
       if (response.data?.success) {

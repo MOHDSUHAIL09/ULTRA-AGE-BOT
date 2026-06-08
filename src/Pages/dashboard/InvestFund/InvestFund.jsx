@@ -218,7 +218,7 @@ const InvestmentPackage = () => {
                         <div className="mb-2 row">
                             <label className="col-5 col-form-label">Invest Amount:</label>
                             <div className="col-7">
-                                <div className="input-group">
+                                <div className="input-group01">
                                     <span className="input-group-text">$</span>
                                     <input
                                         type="number"

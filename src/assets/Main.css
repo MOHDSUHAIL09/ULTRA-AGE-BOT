@@ -478,7 +478,6 @@ button:focus:not(:focus-visible) {
 }
 
 input,
-button,
 select,
 optgroup,
 textarea {
@@ -486,6 +485,7 @@ textarea {
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
+  padding: 10px;
 }
 
 button,
