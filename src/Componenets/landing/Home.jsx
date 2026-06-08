@@ -48,7 +48,7 @@ const Home = () => {
               <p className="hero-description">
                 Join thousands of successful investors who are building their financial 
                 future with our AI-powered investment platform. Start with as little as $100 
-                and watch your money grow with guaranteed returns..
+                and watch your money grow with guaranteed returns.
               </p>
 
               <div className="hero-stats">
